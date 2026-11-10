@@ -1,0 +1,174 @@
+{
+  "tripName": "台東知本溫泉",
+  "dateRange": "2026/11/13～11/14",
+  "hotel": {
+    "name": "東台溫泉飯店",
+    "map": "https://maps.app.goo.gl/BMErUw61z2Ydoj1x6"
+  },
+  "settings": {
+    "travelMode": "two-wheeler",
+    "avoid": [
+      "highways",
+      "tolls",
+      "ferries"
+    ]
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-13",
+      "departure": "07:00",
+      "title": "DAY 1",
+      "subtitle": "南迴 → 部落 → 白玉瀑布 → 知本溫泉",
+      "stops": [
+        {
+          "name": "海豚灣",
+          "time": "07:00",
+          "stay": 30,
+          "map": "https://maps.app.goo.gl/AcLKTrJXeea1TRks7",
+          "note": "第一站，建議早點出發。"
+        },
+        {
+          "name": "早點到早午餐",
+          "time": "08:30",
+          "stay": 60,
+          "map": "https://maps.app.goo.gl/ZzdXY8srA2o65K4U6",
+          "note": "早餐／早午餐補給。"
+        },
+        {
+          "name": "大武之心南迴驛站",
+          "time": "10:30",
+          "stay": 30,
+          "map": "https://maps.app.goo.gl/VzJbpLugefPt2jBU9",
+          "note": "休息、補給、拍照。"
+        },
+        {
+          "name": "笆札筏布工坊",
+          "time": "11:30",
+          "stay": 45,
+          "map": "https://maps.app.goo.gl/8GXmabpFk5QtC5BA9",
+          "note": "部落工坊行程。"
+        },
+        {
+          "name": "午餐決策",
+          "time": "12:00",
+          "decision": true,
+          "note": "12:00 左右若已餓，先吃 103 號廚房；若還不餓，先前往撒布優部落，再吃部落草地便當。",
+          "choices": [
+            {
+              "label": "餓了 → 103號廚房",
+              "map": "https://maps.app.goo.gl/XdbcgMWT9Veq2xrJA"
+            },
+            {
+              "label": "不餓 → 撒布優部落",
+              "map": "https://maps.app.goo.gl/Mjbs53Q3jtL8UEyU9"
+            },
+            {
+              "label": "撒布優後 → 部落草地便當",
+              "map": "https://maps.app.goo.gl/gxgxSsD5pCgd8Q1J6"
+            }
+          ]
+        },
+        {
+          "name": "部落台灣小吃－103號廚房",
+          "time": "12:00",
+          "stay": 45,
+          "map": "https://maps.app.goo.gl/XdbcgMWT9Veq2xrJA",
+          "conditional": "hungry",
+          "note": "若中午已餓，優先選這個午餐點。"
+        },
+        {
+          "name": "撒布優部落",
+          "time": "13:00",
+          "stay": 60,
+          "map": "https://maps.app.goo.gl/Mjbs53Q3jtL8UEyU9",
+          "note": "Sapulju Tribe。"
+        },
+        {
+          "name": "部落草地便當",
+          "time": "14:00",
+          "stay": 40,
+          "map": "https://maps.app.goo.gl/gxgxSsD5pCgd8Q1J6",
+          "conditional": "notHungry",
+          "note": "若前面先去撒布優部落，這裡作為午餐。"
+        },
+        {
+          "name": "白玉瀑布",
+          "time": "14:45",
+          "stay": 60,
+          "map": "https://maps.app.goo.gl/GRVjDPhYgcKo8g286",
+          "note": "下午景點；實際停留依路況、天候與體力調整。"
+        },
+        {
+          "name": "東台溫泉飯店",
+          "time": "15:00",
+          "map": "https://maps.app.goo.gl/BMErUw61z2Ydoj1x6",
+          "note": "預計 15:00 入住。"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-11-14",
+      "departure": "11:00",
+      "title": "DAY 2",
+      "subtitle": "太麻里 → 南迴補給 → 文創 → 萬丹 → HOME",
+      "stops": [
+        {
+          "name": "東台溫泉飯店",
+          "time": "11:00",
+          "map": "https://maps.app.goo.gl/BMErUw61z2Ydoj1x6",
+          "note": "11:00 離開。"
+        },
+        {
+          "name": "太麻里福興宮福德正神",
+          "time": "11:30",
+          "stay": 30,
+          "map": "https://maps.app.goo.gl/LtvM3ZAwLgfrDtqx7",
+          "note": "招財貓土地公廟。"
+        },
+        {
+          "name": "信隆美食飯包",
+          "time": "12:15",
+          "stay": 45,
+          "map": "https://maps.app.goo.gl/GPz3VYXEQx6ivMzq5",
+          "note": "午餐。"
+        },
+        {
+          "name": "淳真好食光",
+          "time": "13:15",
+          "stay": 30,
+          "map": "https://maps.app.goo.gl/awkT93wPfVjjP18FA",
+          "note": "若時間與食量允許。"
+        },
+        {
+          "name": "7-ELEVEN 達武門市",
+          "time": "14:00",
+          "stay": 15,
+          "map": "https://maps.app.goo.gl/HH6b9UjgHpLiipNG7",
+          "note": "補給、休息。"
+        },
+        {
+          "name": "芙玉寶香皂文創主題館",
+          "time": "14:30",
+          "stay": 60,
+          "map": "https://maps.app.goo.gl/eGnMne4gzK23UCjT6",
+          "note": "文創／伴手禮。"
+        },
+        {
+          "name": "萬丹土地公午晚餐旗艦店",
+          "time": "16:00",
+          "stay": 60,
+          "map": "https://maps.app.goo.gl/31YaD4Tk4s89oHNa6",
+          "note": "午晚餐。"
+        },
+        {
+          "name": "HOME",
+          "time": "—",
+          "map": "",
+          "note": "返家。"
+        }
+      ]
+    }
+  ]
+}
