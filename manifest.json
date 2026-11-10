@@ -1,0 +1,10 @@
+{
+  "name": "台東知本機車旅遊",
+  "short_name": "台東機旅",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "lang": "zh-TW",
+  "description": "2026/11/13～11/14 台東知本溫泉機車旅行"
+}
